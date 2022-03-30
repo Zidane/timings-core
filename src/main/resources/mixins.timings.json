@@ -1,0 +1,19 @@
+{
+    "required": true,
+    "package": "org.inspirenxe.timings.core.mixin",
+    "minVersion": "0.8",
+    "priority": 3000,
+    "client": [
+        "minecraft.client.MinecraftMixin"
+    ],
+    "server": [
+    ],
+    "mixins": [
+        "minecraft.server.MinecraftServerMixin",
+        "minecraft.server.level.ServerLevelMixin",
+        "minecraft.world.level.LevelMixin"
+    ],
+    "overwrites": {
+        "conformVisibility": true
+    }
+}
